@@ -4,7 +4,7 @@ services:
     container_name: foodfinder-application
     image: node:lts-alpine
     ports:
-      - "3000:3000"
+      - "3000:80"
     volumes:
       - ./code:/home/node/code
     working_dir: /home/node/code/foodfinder-application
